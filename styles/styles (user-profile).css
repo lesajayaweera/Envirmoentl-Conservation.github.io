@@ -1,20 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  
   text-align: center;
-  background: linear-gradient(to bottom, #78a35f, #d6e3cf);
   height: auto;
+  
+}
+*{
+  transition: all 0.5s ease;
 }
 
 /*Profile*/
 .profile {
   display: grid;
   grid-template-columns: repeat(2, minmax(150px, 2fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  width: 100%;
   background-color: #fcfdf5;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -147,7 +147,6 @@ body {
 }
 .availability-section {
   background-color: #f8fada;
-  padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -184,7 +183,8 @@ body {
 }
 
 /*Contact me*/
-.contact-me form {
+.availability-section form {
+  width: 100%;
   display: grid;
   grid-gap: 15px;
   max-width: 500px;
@@ -242,4 +242,25 @@ form img {
   margin-top: auto;
   text-align: center;
   margin-bottom: 0px;
+}
+.button{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  color: yellow;
+  transform: scale(1.1);
+}
+.button:active{
+  color: white;
+  background-color: darkolivegreen;
+  transform: scale(0.9);
 }
