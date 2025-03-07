@@ -11,7 +11,7 @@
 <header>
     <!--Navigation Bar-->
     <nav class="navigation-bar">
-      <img src="../Images/logo.jpg" class="nav-logo" />
+      <img src="../Images/logo.jpg" class="nav-logo" alt="mainImage"/>
       <h1 class="header">Life on Land</h1>
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
@@ -23,11 +23,12 @@
         <li><a href="team.html">Team</a></li>
       </ul>
     </nav>
-  </header>
+</header>
 
+<body>
     <!--Scrollable Section-->
-    <div class="selection">
-        <h2>Volunteer Programs</h2>
+    <section class="selection">
+        <h2 class="main-heading">Volunteer Programs</h2>
         <select class="dropdown-box">
             <option>Sort by: Most Popular</option>
             <option>Sort by: Most Viewed</option>
@@ -35,11 +36,15 @@
             <option>Sort by: Newest</option>
             <option>Sort by: Oldest</option>
         </select>
-        <!--Volunteer programs-->
-        <div class="volunteer-programs">
+       
+    </section>
+
+    <SECTION class="events">
+         <!--Volunteer programs-->
+         <div class="volunteer-programs">
             <div class="program">
                 <h3>WWF (World Wildlife Fund) Volunteer & Internship Programs</h3>
-                <img src = "../Images/WWF Volunteer & Internship Programs.jpg">
+                <img src = "../Images/WWF Volunteer & Internship Programs.jpg" alt="WWF Volunteer & Internship Programs">
                 <p>WWF offers volunteer and internship opportunities to support wildlife conservation, habitat restoration, and anti-poaching efforts globally.</p>
                 <a href="https://www.worldwildlife.org/">
                 <button class="button">Learn More</button>
@@ -47,7 +52,7 @@
             </div>
             <div class="program">
                 <h3>Earthwatch Institute Volunteer Expeditions</h3>
-                <img src = "../Images/Earthwatch Institute Volunteer Expeditions.jpg">
+                <img src = "../Images/Earthwatch Institute Volunteer Expeditions.jpg" alt="Earthwatch Institute Volunteer Expeditions">
                 <p>Join Earthwatch to assist scientists in field research on biodiversity, climate change, and ecosystem restoration projects worldwide.</p>
                 <a href="https://earthwatch.org/">
                 <button class="button">Learn More</button>
@@ -55,7 +60,7 @@
             </div>
             <div class="program">
                 <h3>The Nature Conservancy Volunteer Program</h3>
-                <img src = "../Images/The Nature Conservancy Volunteer Program.jpg">
+                <img src = "../Images/The Nature Conservancy Volunteer Program.jpg" alt="The Nature Conservancy Volunteer Program">
                 <p>Volunteer with The Nature Conservancy on habitat restoration, tree planting, and environmental education efforts locally and globally.</p>
                 <a href="https://www.nature.org/en-us/">
                 <button class="button">Learn More</button>
@@ -63,48 +68,49 @@
             </div>
             <div class="program">
                 <h3>Rainforest Alliance Community Engagement</h3>
-                <img src = "../Images/Rainforest Alliance Community Engagement.jpg">
+                <img src = "../Images/Rainforest Alliance Community Engagement.jpg" alt="Rainforest Alliance Community Engagement">
                 <p>Support sustainable agriculture and forest conservation by volunteering with Rainforest Alliance’s global conservation initiatives.</p>
                 <a href="https://www.rainforest-alliance.org/">
                 <button class="button">Learn More</button>
             </a>
             </div>
         </div>
-    <!--Ratings and Reviews-->
-    <div class = "reviews-and-ratings">
-        <h3>Reviews & Ratings</h3>
-        <div class = "rating-box">
-            <!--Number Rating-->
-            <div class="rating">
-                <input type="radio">1<input type="radio">2<input type="radio">3<input type="radio">4<input type="radio">5<input type="radio">6<input type="radio">7<input type="radio">8<input type="radio">9<input type="radio">10
+        <!--Ratings and Reviews-->
+        <div class = "reviews-and-ratings">
+            <h3>Reviews & Ratings</h3>
+            <div class = "rating-box">
+                <!--Number Rating-->
+                <div class="rating">
+                    <input type="radio">1<input type="radio">2<input type="radio">3<input type="radio">4<input type="radio">5<input type="radio">6<input type="radio">7<input type="radio">8<input type="radio">9<input type="radio">10
+                </div>
+
+                <!--Review-->
+                <div class = "review">
+                    <input placeholder="Write your review here...">
+                </div>
+
+                <!--Emoji Rating-->
+                <div class="emoji-rating">
+                    <button>😡</button>
+                    <button>😕</button>
+                    <button>😐</button>
+                    <button>😊</button>
+                    <button>😍</button>
+                </div> 
+
+                <!--Submit and Cancel Buttons-->
+                <div>
+                    <button class="submit-button">Submit Feedback</button>
+                    <button class="cancel-button">Cancel</button>
+                </div> 
             </div>
-
-            <!--Review-->
-            <div class = "review">
-                <input placeholder="Write your review here...">
-            </div>
-
-            <!--Emoji Rating-->
-            <div class="emoji-rating">
-                <button>😡</button>
-                <button>😕</button>
-                <button>😐</button>
-                <button>😊</button>
-                <button>😍</button>
-            </div> 
-
-            <!--Submit and Cancel Buttons-->
-            <div>
-                <button class="submit-button">Submit Feedback</button>
-                <button class="cancel-button">Cancel</button>
-              </div> 
         </div>
-    </div>
+    </SECTION>
 
-<!--Footer-->
-<footer>
-    <p class = "footer">&copy; 2025 Life on Land Initiative | Designed for Sustainability</p>
-</footer>
+    <!--Footer-->
+    <footer>
+        <p class = "footer">&copy; 2025 Life on Land Initiative | Designed for Sustainability</p>
+    </footer>
 </body>
 </html>
     
