@@ -118,3 +118,95 @@ body {
   border-color: white;
   text-decoration: none;
 }
+.become-volunter{
+  background-color: rgb(4, 27, 4);
+  display:flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  
+  
+  
+
+}
+.become-volunter h2{
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0;
+}
+.volunteer{
+  color: yellowgreen;
+}
+#volunteer-sub-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  
+}
+#sub-p{
+  width: 100%;
+  margin: auto;
+}
+.volunteer-btn{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.volunteer-btn:hover{
+  color: yellow;
+  transform: scale(1.1);
+}
+.volunteer-btn:active{
+  color: white;
+  background-color: darkolivegreen;
+  transform: scale(0.9);
+}
+.acheivements {
+  position: relative;
+  height: 50vh;
+
+  align-items: center; 
+  justify-content: center; 
+  color: white; /* Adjust text color for better visibility */
+}
+
+.acheivements::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Images/my selections/achiements1.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
+  z-index: -1;
+}
+.achievements-sub-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.achievement-icon{
+  width: 50px;;
+}
+.achievements-box{
+  width: 10%;
+}
+.achievements-box hr{
+  width: 50px;
+}
