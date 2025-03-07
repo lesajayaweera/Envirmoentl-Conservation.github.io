@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #78a35f, #d6e3cf);
+  height: auto;
+}
+
+/*Profile*/
+.profile {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 2fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fcfdf5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #f8fada;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-card img.woman {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-card h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.profile-card p {
+  font-size: 1.1em;
+  color: #555;
+  font-weight: bold;
+}
+
+.profile-card:hover {
+  background-color: #f2e8cf;
+}
+
+/* About Me Section */
+.info {
+  background-color: #f8fada;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.info h3 {
+  font-size: 1.8em;
+  margin-top: 10px;
+}
+.info:hover {
+  background-color: #f2e8cf;
+}
+
+/* Skills Section */
+.skills h3 {
+  font-size: 1.8rem;
+}
+
+.skills {
+  background-color: #f8fada;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.skills:hover {
+  background-color: #f2e8cf;
+}
+
+/*Skills progress bars*/
+.progress {
+  width: 100%;
+  background-color: #f8fada;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+/*Volunteering*/
+.volunteering h3 {
+  font-size: 1.8rem;
+}
+
+.volunteering {
+  background-color: #f8fada;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.volunteering ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2rem;
+}
+
+.volunteering li {
+  margin: 10px 0;
+}
+
+.volunteering li:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.volunteering:hover {
+  background-color: #f2e8cf;
+}
+
+/*Availability Section*/
+.availability-section h3 {
+  font-size: 1.8rem;
+}
+.availability-section {
+  background-color: #f8fada;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.availability-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.availability-section th,
+.availability-section td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.availability-section th {
+  background-color: #ecf39e;
+}
+
+.availability-section:hover {
+  background-color: #f2e8cf;
+}
+
+.availability-section p {
+  font-size: 18px;
+  display: inline-block;
+  align-items: center;
+}
+
+.availability-section img {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+/*Contact me*/
+.contact-me form {
+  display: grid;
+  grid-gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f8fada;
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-me label {
+  font-size: 1.1rem;
+}
+
+.contact-me h3 {
+  margin-top: 10px;
+}
+
+.contact-me input,
+.contact-me textarea {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.contact-me button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-me button:hover {
+  background-color: #45a049;
+  border-color: black;
+}
+
+form img {
+  margin-left: 10px;
+}
+.contact-me form:hover {
+  background-color: #f2e8cf;
+}
+
+/*Footer*/
+.footer {
+  background-color: #386641;
+  color: white;
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 0px;
+}

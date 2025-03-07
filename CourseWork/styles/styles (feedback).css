@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #78a35f, #d6e3cf);
+  height: auto;
+}
+
+/*Header*/
+
+h2 {
+  font-size: 1.8rem;
+}
+
+/*Feedback Form */
+.container {
+  width: 50%;
+  margin: 20px auto;
+  background: #fcfdf5;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fieldset {
+  border: none;
+  margin-bottom: 20px;
+  padding: 40px;
+  background: #ecf0f1;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 0.8rem;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.input-group ::placeholder {
+  font-size: 12px;
+}
+
+.input-group option,
+select {
+  font-size: 12px;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+.rating label {
+  display: inline;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.rating label:hover {
+  color: gold;
+}
+
+/*Footer*/
+.footer {
+  background-color: #386641;
+  color: white;
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 0px;
+}

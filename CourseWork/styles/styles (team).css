@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #78a35f, #d6e3cf);
+  height: auto;
+}
+
+/*Team*/
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.team-member:hover,
+.team-member:focus {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.3s, filter 0.3s;
+}
+
+.team-member:hover .image,
+.team-member:focus .image {
+  opacity: 0.7;
+  filter: brightness(0.9);
+}
+
+/*Details of the team members*/
+.details {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.team-member:hover .details,
+.team-member:focus .details {
+  max-width: fit-content;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/*Footer*/
+.footer {
+  background-color: #386641;
+  color: white;
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 0px;
+}

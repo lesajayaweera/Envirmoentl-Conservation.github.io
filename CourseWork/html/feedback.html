@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life On Land</title>
+    <link rel="stylesheet" href="../styles/styles (feedback).css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+  </head>
+
+  <!--Header-->
+  <header>
+    <!--Navigation Bar-->
+    <nav class="navigation-bar">
+      <img src="../Images/logo.jpg" class="nav-logo" />
+      <h1 class="header">Life on Land</h1>
+      <ul class="nav-links">
+        <li><a href="../homepage.html">Home</a></li>
+        <li><a href="volunteerpage.html">Volunteer</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="user-profile.html">User Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="site-map.html">Site Map</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <!--Navigation Bar-->
+
+    <!--Feedback Form-->
+    <div class="container">
+      <h2>Feedback Form</h2>
+      <p>Your thoughts help us protect and preserve life on land.</p>
+
+      <!--Personal Details-->
+      <form>
+        <div class="fieldset">
+          <legend>Personal Details</legend>
+
+          <div class="input-group">
+            <label>Full Name:</label>
+            <input id="full-name" placeholder=" Eg:- Dexter Murphy" required />
+          </div>
+
+          <div class="input-group">
+            <label>Email:</label>
+            <input
+              id="email"
+              type="email"
+              placeholder=" Eg:- sample@gmail.com"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label>Telephone Number:</label>
+            <input
+              id="tele"
+              type="tel"
+              placeholder=" Eg:- 071 234 5678"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label>Address:</label>
+            <textarea id="address" rows="4" required></textarea>
+          </div>
+
+          <!--Feedback Details-->
+          <legend>Feedback Details</legend>
+          <div class="input-group">
+            <label>Comment or Message:</label>
+            <textarea id="comment" rows="5" maxlength="200"></textarea>
+          </div>
+
+          <div class="input-group">
+            <label>Topic of Feedback:</label>
+            <select>
+              <option>Wildlife Conservation</option>
+              <option>Forest Preservation</option>
+              <option>Sustainability</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Areas of Interest:</label>
+            <select multiple>
+              <option>Biodiversity and Wildlife Conservation</option>
+              <option>Deforestation and Reforestation</option>
+              <option>Sustainable Land Use and Agriculture</option>
+              <option>Soil Degradation and Desertification</option>
+              <option>Protected Areas and National Parks</option>
+              <option>Role of Technology in Land Conservation</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Rate Your Experience:</label>
+            <div class="rating">
+              <label>★</label
+              >&nbsp&nbsp<label>★</label>&nbsp&nbsp<label>★</label>&nbsp&nbsp<label>★</label>&nbsp&nbsp<label
+                >★</label
+              >
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label>Preferred Contact Method:</label>
+            <input type="radio" />
+            <label>Email</label>
+            <input type="radio" />
+            <label>Phone</label>
+          </div>
+
+          <div class="input-group">
+            <label>Subscribe to our newsletter:</label>
+            <input type="checkbox" />
+          </div>
+
+          <div class="input-group">
+            <label>Feedback Submission Date:</label>
+            <input type="datetime-local" />
+          </div>
+
+          <div class="input-group">
+            <label>Upload an Attachment:</label>
+            <input type="file" />
+          </div>
+
+          <div class="submit-section">
+            <button>Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="preview.js"></script>
+
+    <!--Footer-->
+    <footer>
+      <p class="footer">
+        &copy; 2025 Life on Land Initiative | Designed for Sustainability
+      </p>
+    </footer>
+  </body>
+</html>
