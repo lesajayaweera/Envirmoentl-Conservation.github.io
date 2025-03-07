@@ -33,11 +33,10 @@ body {
   object-fit: cover; /* Ensures the image covers the whole section */
   z-index: -1; /* Places the image behind the content */
   transition: filter 0.3s ease; /* Smooth transition for brightness change */
+  filter:brightness(50%);
 }
 
-.darker {
-  filter: brightness(0.5); /* Darker effect */
-}
+
 #main-section > div {
   position: relative;
   z-index: 1; /* Ensures the text stays above the image */
@@ -46,12 +45,12 @@ body {
   padding: 20px;
 }
 
-.our-mission {
-  font-size: 2em;
+.our-welcome {
+  font-size: 2.1rem;
   font-weight: bold;
 }
 
-.homepage-mission {
+.homepage-welcome {
   font-size: 1.2em;
   line-height: 1.6;
 }
