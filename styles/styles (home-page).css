@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background: linear-gradient(to bottom, #78a35f, #d6e3cf);
+  background-color:white;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -48,11 +48,20 @@ body {
 .our-welcome {
   font-size: 2.1rem;
   font-weight: bold;
+  color: lightgreen;
 }
 
 .homepage-welcome {
   font-size: 1.2em;
   line-height: 1.6;
+}
+.homepage-mission{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  width: 80%;
+  margin: auto;
+  
+  
 }
 
 /*Content*/
