@@ -4,46 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life On Land</title>
-    <link rel="stylesheet" href="styles_(content_ST4).css">
+    <link rel="stylesheet" href="../styles/styles_(content_ST4).css">
+    <link rel="stylesheet" href="../styles/general.css">
 </head>
 <body>
-    <!--Header-->
     <header>
-        <h1 class= "header">Life on Land</h1>
-    </header>
-    
-    <!--Navigation Bar-->
-    <nav class = "navigation-bar">
-        <img src="life-on-land-logo.jpg" class="nav-logo" alt = "logo">
-        <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
+        <nav class="navigation-bar">
+          <img src="../Images/logo.jpg" class="nav-logo" alt="Life on Land main logo" />
+          <h1 class="header">Life on Land</h1>
+      
+          <!-- Hamburger Icon -->
+          <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+      
+          <!-- Navigation Links -->
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
             <li><a href="volunteerpage.html">Volunteer</a></li>
             <li><a href="table.html">Table</a></li>
             <li><a href="user-profile.html">User Profile</a></li>
             <li><a href="feedback.html">Feedback</a></li>
             <li><a href="site-map.html">Site Map</a></li>
             <li><a href="team.html">Team</a></li>
-        </ul>
-    </nav>
-
+          </ul>
+        </nav>
+      </header>
     <!--Content-->
-    <div class="container">
-        <h1>Sustainable Land Use and Agriculture</h1>
-        <p>Sustainable land use and agriculture focus on conserving resources, maintaining soil health, reducing environmental impact, and promoting practices that support long-term food security and ecosystem balance.</p>
-        <img src="content_st4_1.jpg" alt = "image">
-
-        <h2>Importance of Sustainable Land Use</h2>
-        <p>Sustainable land use is crucial for preserving natural resources, maintaining biodiversity, preventing soil degradation, ensuring food security, and supporting long-term environmental and economic stability.</p>
-        <img src = "content_st4_2.jpg" alt = "image">
-
-        <h2>Challenges of sustainable Land Use and Agriculture</h2>
-        <p>Challenges of sustainable land use and agriculture include limited resources, climate change, soil degradation, overuse of land, water scarcity, and the need for balancing economic growth with environmental protection.</p>
-        <img src="content_st4_3.jpg" alt = "image">
-
-        <h2>Solutions for Sustainable Agriculture</h2>
-        <p>Solutions for sustainable agriculture include crop rotation, organic farming, water conservation, agroforestry, soil conservation practices, reduced chemical use, and promoting biodiversity to ensure long-term food security and ecosystem health.</p>
-        <img src="content_st4_4.jpg" alt = "image">
-    </div>
+    <section id="section">
+        <div class="container">
+            <h1>Sustainable Land Use and Agriculture</h1>
+            <p>Sustainable land use and agriculture focus on conserving resources, maintaining soil health, reducing environmental impact, and promoting practices that support long-term food security and ecosystem balance.</p>
+            <img src="../Images/content/content_st4_1.jpg" alt = "image">
+    
+            <h2>Importance of Sustainable Land Use</h2>
+            <p>Sustainable land use is crucial for preserving natural resources, maintaining biodiversity, preventing soil degradation, ensuring food security, and supporting long-term environmental and economic stability.</p>
+            <img src = "../Images/content/content_st4_2.jpg" alt = "image">
+    
+            <h2>Challenges of sustainable Land Use and Agriculture</h2>
+            <p>Challenges of sustainable land use and agriculture include limited resources, climate change, soil degradation, overuse of land, water scarcity, and the need for balancing economic growth with environmental protection.</p>
+            <img src="../Images/content/content_st4_3.jpg" alt = "image">
+    
+            <h2>Solutions for Sustainable Agriculture</h2>
+            <p>Solutions for sustainable agriculture include crop rotation, organic farming, water conservation, agroforestry, soil conservation practices, reduced chemical use, and promoting biodiversity to ensure long-term food security and ecosystem health.</p>
+            <img src="../Images/content/content_st4_4.jpg" alt = "image">
+        </div>
+    </section>
+    
 
     <div class="go-top" onclick="window.scrollTo(0, 0);">Go to Top</div>
 
@@ -52,6 +61,6 @@
 <footer>
     <p class = "footer">&copy; 2025 Life on Land Initiative | Designed for Sustainability</p>
 </footer>
-
+<script src="../js/common.js"></script>
 </body>
 </html>

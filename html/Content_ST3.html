@@ -4,46 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life On Land</title>
-    <link rel="stylesheet" href="styles_(content_ST3).css">
+    <link rel="stylesheet" href="../styles/styles_(content_ST3).css">
+    <link rel="stylesheet" href="../styles/general.css">
+
 </head>
 <body>
-    <!--Header-->
     <header>
-        <h1 class= "header">Life on Land</h1>
-    </header>
-
-    <!--Navigation Bar-->
-    <nav class = "navigation-bar">
-        <img src="life-on-land-logo.jpg" class="nav-logo" alt = "logo">
-        <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
+        <nav class="navigation-bar">
+          <img src="../Images/logo.jpg" class="nav-logo" alt="Life on Land main logo" />
+          <h1 class="header">Life on Land</h1>
+      
+          <!-- Hamburger Icon -->
+          <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+      
+          <!-- Navigation Links -->
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
             <li><a href="volunteerpage.html">Volunteer</a></li>
             <li><a href="table.html">Table</a></li>
             <li><a href="user-profile.html">User Profile</a></li>
             <li><a href="feedback.html">Feedback</a></li>
             <li><a href="site-map.html">Site Map</a></li>
             <li><a href="team.html">Team</a></li>
-        </ul>
-    </nav>
-
+          </ul>
+        </nav>
+      </header>
     <!--Content-->
-    <div class="container">
-        <h1>Wildlife Conservation</h1>
-        <p>Wildlife conservation involves protecting animal species and their habitats to ensure biodiversity and ecological balance. It includes efforts like habitat preservation, anti-poaching laws, and wildlife protection programs.</p>
-        <img src="content_st3_1.jpg" alt = "image">
-
-        <h2>Importance of Wildlife</h2>
-        <p>Wildlife is essential for maintaining ecological balance, supporting biodiversity, and providing vital ecosystem services like pollination, soil health, and water purification. It also contributes to cultural, recreational, and economic benefits, promoting overall environmental well-being.</p>
-        <img src = "content_st3_2.jpg" alt = "image">
-
-        <h2>Challenges in Wildlife Conservation</h2>
-        <p>Challenges in wildlife conservation include habitat loss, poaching, climate change, human-wildlife conflict, insufficient funding, and weak enforcement of conservation laws, all of which threaten species survival.</p>
-        <img src="content_st3_3.jpg" alt = "image">
-
-        <h2>Solutions to Promote Wildlife Conservation</h2>
-        <p>Solutions to promote wildlife conservation include creating protected areas, enforcing anti-poaching laws, supporting sustainable practices, raising public awareness, and collaborating with local communities to protect habitats and species.</p>
-        <img src="content_st3_4.jpg" alt = "image">
-    </div>
+    <section id="section">
+        <div class="container">
+            <h1>Wildlife Conservation</h1>
+            <p>Wildlife conservation involves protecting animal species and their habitats to ensure biodiversity and ecological balance. It includes efforts like habitat preservation, anti-poaching laws, and wildlife protection programs.</p>
+            <img src="../Images/content/content_st3_1.jpg" alt = "image">
+    
+            <h2>Importance of Wildlife</h2>
+            <p>Wildlife is essential for maintaining ecological balance, supporting biodiversity, and providing vital ecosystem services like pollination, soil health, and water purification. It also contributes to cultural, recreational, and economic benefits, promoting overall environmental well-being.</p>
+            <img src = "../Images/content/content_st3_2.jpg" alt = "image">
+    
+            <h2>Challenges in Wildlife Conservation</h2>
+            <p>Challenges in wildlife conservation include habitat loss, poaching, climate change, human-wildlife conflict, insufficient funding, and weak enforcement of conservation laws, all of which threaten species survival.</p>
+            <img src="../Images/content/content_st3_3.jpg" alt = "image">
+    
+            <h2>Solutions to Promote Wildlife Conservation</h2>
+            <p>Solutions to promote wildlife conservation include creating protected areas, enforcing anti-poaching laws, supporting sustainable practices, raising public awareness, and collaborating with local communities to protect habitats and species.</p>
+            <img src="../Images/content/content_st3_4.jpg" alt = "image">
+        </div>
+    </section>
+    
 
     <div class="go-top" onclick="window.scrollTo(0, 0);">Go to Top</div>
 
@@ -52,6 +62,7 @@
 <footer>
     <p class = "footer">&copy; 2025 Life on Land Initiative | Designed for Sustainability</p>
 </footer>
+<script src="../js/common.js"></script>
 
 </body>
 </html>

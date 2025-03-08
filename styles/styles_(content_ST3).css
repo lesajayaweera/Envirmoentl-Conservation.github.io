@@ -1,10 +1,10 @@
 /*Home-Page*/
 body {
-    font-family: "Poppins", sans-serif;
+    
     margin: 0;
     padding: 0;
     text-align: center;
-    background:linear-gradient(to bottom, #78a35f , #d6e3cf);
+
     height: auto;
     display: flex;
     flex-direction: column;
@@ -14,62 +14,6 @@ h1, h2, h3 {
     color: #2c3e50;
     }
 /*Header*/
-.header {
-    background-color: #386641;
-    color: white;
-    padding: 20px;
-    margin: 0;
-    font-size: 4rem;
-    }
-    
-/*Navigation Bar*/
-.navigation-bar {
-    background-color: #6A994E;
-    overflow: hidden;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 5px;
-    z-index: 1;
-    }
-.nav-logo {
-    width: 50px;
-    height: auto;
-    }
-.nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    }
-.nav-links li {
-    margin-left: 20px;
-    }
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 8px 12px;
-    border: 1px solid black;
-    border-radius: 5px
-    }
-.nav-links a:hover {
-    background-color:#9AB973  ;
-    border-radius: 5px;
-    filter: blur(1px);
-    }
-
-/*Footer*/
-.footer {
-    background-color: #386641;
-    color: white;
-    padding: 10px;
-    margin-top: auto;
-    text-align: center;
-    margin-bottom: 0px;
-    }
 
 /*Go To Top*/
 .go-top {
