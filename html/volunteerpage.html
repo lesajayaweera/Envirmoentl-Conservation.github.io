@@ -9,10 +9,18 @@
 </head>
 <!--Header-->
 <header>
-    <!--Navigation Bar-->
     <nav class="navigation-bar">
-      <img src="../Images/logo.jpg" class="nav-logo" alt="mainImage"/>
+      <img src="../Images/logo.jpg" class="nav-logo" alt="Life on Land main logo" />
       <h1 class="header">Life on Land</h1>
+  
+      <!-- Hamburger Icon -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+  
+      <!-- Navigation Links -->
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
         <li><a href="volunteerpage.html">Volunteer</a></li>
@@ -23,10 +31,11 @@
         <li><a href="team.html">Team</a></li>
       </ul>
     </nav>
-</header>
+  </header>
 
 <body>
-    <!--Scrollable Section-->
+    <section id="section">
+        <!--Scrollable Section-->
     <section class="selection">
         <h2 class="main-heading">Volunteer Programs</h2>
         <select class="dropdown-box">
@@ -106,11 +115,13 @@
             </div>
         </div>
     </SECTION>
+    </section>
 
     <!--Footer-->
     <footer>
         <p class = "footer">&copy; 2025 Life on Land Initiative | Designed for Sustainability</p>
     </footer>
+    <script src="../js/common.js"></script>
 </body>
 </html>
     

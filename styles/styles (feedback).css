@@ -15,7 +15,6 @@ h2 {
 
 /*Feedback Form */
 .container {
-  width: 50%;
   margin: 20px auto;
   background: #fcfdf5;
   padding: 40px;
@@ -104,4 +103,10 @@ button:hover {
   margin-top: auto;
   text-align: center;
   margin-bottom: 0px;
+}
+
+@media (max-width:1000px){
+  .container{
+    margin: auto;
+  }
 }

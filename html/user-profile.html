@@ -9,10 +9,18 @@
   </head>
   <!--Header-->
   <header>
-    <!--Navigation Bar-->
     <nav class="navigation-bar">
-      <img src="../Images/logo.jpg" class="nav-logo" />
+      <img src="../Images/logo.jpg" class="nav-logo" alt="Life on Land main logo" />
       <h1 class="header">Life on Land</h1>
+  
+      <!-- Hamburger Icon -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+  
+      <!-- Navigation Links -->
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
         <li><a href="volunteerpage.html">Volunteer</a></li>
@@ -25,7 +33,8 @@
     </nav>
   </header>
   <body>
-    <!--Profile-->
+    <section id="section">
+        <!--Profile-->
     <div class="profile">
       <!--Profile Card-->
       <div class="profile-card">
@@ -168,6 +177,7 @@
         </form>
       </div>
     </div>
+    </section>
 
     <!--Footer-->
     <footer>
@@ -175,5 +185,6 @@
         &copy; 2025 Life on Land Initiative | Designed for Sustainability
       </p>
     </footer>
+    <script src="../js/common.js"></script>
   </body>
 </html>
