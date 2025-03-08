@@ -109,7 +109,7 @@
 }
 
 /* Show Hamburger Menu */
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .hamburger {
     display: flex; /* Show hamburger on small screens */
   }

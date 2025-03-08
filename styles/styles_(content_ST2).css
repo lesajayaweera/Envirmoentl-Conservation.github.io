@@ -1,0 +1,46 @@
+/*Home-Page*/
+body {
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+h1, h2, h3 {
+    color: #2c3e50;
+    }
+/*Header*/
+
+/*Go To Top*/
+.go-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+/*Images*/
+img {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    }
+
+/*Container box*/
+.container {
+    margin: auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
