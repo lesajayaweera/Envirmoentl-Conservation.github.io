@@ -141,6 +141,12 @@
     box-sizing: border-box;
     border-radius: 10px;
   }
+  .nav-links a{
+    width: 100%;
+  }
+  .nav-links a:active{
+    color: darkgreen;
+  }
 
   .nav-links.active {
     display: flex;
